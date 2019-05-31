@@ -1,0 +1,28 @@
+body{
+  background:silver;
+}
+#main{
+  text-align:center;
+  font-family:'Kaushan Script',cursive;
+  color:gold;
+}
+#image{
+  max-width: 100%; 
+  display: block; 
+  height: auto;
+  margin: auto;
+}
+#img-caption{
+  font-family: 'Satisfy', cursive;
+  color:white;
+}
+#tribute-info{
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+  color:red;
+}
+#tribute-link{
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+  color:maroon;
+}

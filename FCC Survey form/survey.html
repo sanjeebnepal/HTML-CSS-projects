@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="survey.css">
+<h1 id="title">Survey Form</h1>
+<p id="description">
+  Form to decide if you are good to go
+</p>
+<form action="survey" id="survey-form">
+  <label for="name" id="name-label">* Name</label>
+  <input id="name" type="text" placeholder="Enter you name" required>
+  <br><br>
+  <label id="email-label" for="email"> * E-mail</label> <input id="email" type="email" placeholder="Enter a valid email address" required>
+  <br><br>
+  <label id="number-label" for="number">* Phone number</label>
+  <input id="number" type="number" min="1" max="11" placeholder="98xx-xxxxxx" required>
+  <br/><br>
+
+  <div id="dropdown">
+    <label for="f">So you ready?</label>
+    <select id="f">
+      <option disabled selected>Select an option</option>
+      <option>Yes</option>
+      <option>Maybe</option></select>
+  </div>
+   <br>
+    
+      <label for="tshirt" id="number-label">Event T-shirt Choice: </label><br>
+    <input type="radio" name="tshirt" value="yes">Sure!<br>
+    <input type="radio" name="tshirt" value="no">No.
+  </div>
+  
+  <div>
+    <label>Do you have pets: </label><br>
+    <input type="radio" name="tshirt" value="yes">Yes!<br>
+    <input type="radio" name="tshirt" value="no">No.
+  
+  <br>
+  
+  <p>What can you do for it?
+  <label>
+    <input type="checkbox" value="study">Study</label>
+    <label>
+      <input type="checkbox" value="write">Write
+    </label>
+    </p>
+  <p>Comments:
+  <textarea name="comment"></textarea>
+  </p>
+    <input type="submit" value="Submit" id="submit">
+    
+</form>
